@@ -1,0 +1,28 @@
+.article3 {
+    background-position: bottom !important;
+}
+
+.article3 .article-wrapper {
+    position: relative;
+}
+
+.a2-image {
+    margin-bottom: -5px;
+}
+
+/*==================================================*/
+@media (max-width: 1050px) {
+    .article3 .article-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .a2-image {
+        position: relative;
+    }
+}
+
+@media (max-width: 550px) {
+    .a2-image {
+        margin-top: -2rem;
+    }
+}
