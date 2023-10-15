@@ -1,11 +1,12 @@
 .promotion {
+    background: url(photos/crowd-joyful-multinational-woman.png) !important;
+    background-position: bottom;
     width: 100%;
     height: 100vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-image: url(photos/crowd-joyful-multinational-woman.png) !important;
 }
 
 .promotion-wrapper {
