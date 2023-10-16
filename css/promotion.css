@@ -1,12 +1,23 @@
 .promotion {
-    background: url(photos/promobackground.png) !important;
-    background-position: bottom;
+    padding-bottom: 0;
+    background: url(../photos/promobackground.png) !important;
+    background-position: bottom !important;
     width: 100%;
     height: 100vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.promotion::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.856);
 }
 
 .promotion-wrapper {
